@@ -1,0 +1,35 @@
+{
+    "particles":{
+        "number":{
+            "_comment": "Change the value:100 to any number to set amount of particles",
+            "value":100 
+        },
+        "color":{
+            "value":"#f9f3f4"
+        },
+        "shape":{
+            "type":"circle",
+            "stroke":{
+                "_comment": "Change the width:10 to any number to set circle size of the particles",
+                "width":10,
+                "color":"#ccc"
+            }
+        },
+        "opacity":{
+            "value":0.5,
+            "random":true
+        },
+        "size":{
+            "value":2
+        },
+        "line_linked":{
+            "enable":true,
+            "distance":110
+        },
+        "move":{
+            "_comment": "Vary the speed of the particles",
+            "enable":true,
+            "speed": 3
+        }
+    }
+}
